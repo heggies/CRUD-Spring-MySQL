@@ -55,12 +55,12 @@ public class SiswaController {
     }
     
     @RequestMapping(value = "/{id}", method = RequestMethod.PUT)
-    public void edit(@PathVariable String id, @RequestBody Siswa c)
+    public void edit(@PathVariable String id, @RequestBody Siswa s)
     {
         Siswa siswa = siswaDao.findOne(id);
         if(siswa != null) {
-            siswa.setId(id);
-            siswaDao.save(siswa);
+            s.setId(id);
+            siswaDao.save(s);
         }
     }
 }
