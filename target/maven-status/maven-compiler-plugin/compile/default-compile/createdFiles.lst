@@ -1,0 +1,4 @@
+com/heggies/dataSiswa/App.class
+com/heggies/dataSiswa/controller/SiswaController.class
+com/heggies/dataSiswa/domain/Siswa.class
+com/heggies/dataSiswa/service/SiswaDao.class

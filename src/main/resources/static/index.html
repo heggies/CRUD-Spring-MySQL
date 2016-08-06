@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Data Siswa</title>
+        <link href="/lib/css/material-icons.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/lib/css/materialize.css"  media="screen,projection"/>
+        <style type="text/css">
+        .crud-cont{
+            margin: 50px auto 40px;
+            width: 70%;
+        }
+        </style>
+        <script src="/lib/js/jquery.min.js"></script>
+        <script src="/lib/js/materialize.min.js"></script>
+        <script src="/lib/js/angular.min.js"></script>
+        <script src="/lib/js/angular-route.min.js"></script>
+        <script src="/scripts/app.js"></script>
+        <script src="/scripts/controller/siswaController.js"></script>
+        <script src="/scripts/service/siswaService.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body ng-app="aplikasiDataSiswa" class="grey lighten-4">
+        <div class="navbar-fixed">
+            <nav class="blue-grey darken-3">
+              <div class="nav-wrapper container">
+                <a href="#" class="brand-logo light">Data Siswa</a>
+              </div>
+            </nav>
+        </div>
+        <div ng-view="" class="crud-cont">
+            
+        </div>
+    </body>
+</html>
