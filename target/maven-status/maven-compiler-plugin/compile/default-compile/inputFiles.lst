@@ -1,4 +1,10 @@
+/var/www/html/dataSiswa/src/main/java/com/heggies/dataSiswa/domain/Permission.java
+/var/www/html/dataSiswa/src/main/java/com/heggies/dataSiswa/controller/UserController.java
+/var/www/html/dataSiswa/src/main/java/com/heggies/dataSiswa/config/SecurityConfig.java
 /var/www/html/dataSiswa/src/main/java/com/heggies/dataSiswa/service/SiswaDao.java
 /var/www/html/dataSiswa/src/main/java/com/heggies/dataSiswa/App.java
 /var/www/html/dataSiswa/src/main/java/com/heggies/dataSiswa/controller/SiswaController.java
 /var/www/html/dataSiswa/src/main/java/com/heggies/dataSiswa/domain/Siswa.java
+/var/www/html/dataSiswa/src/main/java/com/heggies/dataSiswa/domain/User.java
+/var/www/html/dataSiswa/src/main/java/com/heggies/dataSiswa/service/UserDao.java
+/var/www/html/dataSiswa/src/main/java/com/heggies/dataSiswa/domain/Role.java

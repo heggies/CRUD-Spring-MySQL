@@ -16,7 +16,7 @@
                     <input placeholder="Tempat Lahir" type="text" class="validate" ng-model="currentSiswa.tempatLahir">
                 </div>
                 <div class="input-field col s12">
-                    <label for="birthdate" class="">Tanggal Lahir</label>
+                    <label for="birthdate" id="label">Tanggal Lahir</label>
                     <input type="date" class="datepicker" id="birthdate" ng-model="currentSiswa.tanggalLahir">
                 </div>
                 <div class="input-field col s12">
@@ -46,7 +46,7 @@
                 <td>{{ siswa.tanggalLahir }}</td>
                 <td>
                     <button class="btn waves-effect waves-light" ng-click="hapusData(siswa.id)">Hapus</button>
-                    <button class="btn waves-effect waves-light" ng-click="editData(siswa)">Edit</button>
+                    <button class="btn waves-effect waves-light" ng-click="editData(siswa)" onclick="labelActivate()">Edit</button>
                 </td>
             </tr>
         </tbody>
@@ -57,4 +57,8 @@
     selectMonths: true, // Creates a dropdown to control month
     selectYears: 15 // Creates a dropdown of 15 years to control year
   });
+  
+  function labelActivate(){
+      $("#label").attr("class", "active");
+  }
 </script>
